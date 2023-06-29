@@ -36,11 +36,13 @@ function App() {
 
   return (
     <>
+    <div class='box'>
     <h1>FizzBuzz</h1>
     <button value={number} onClick={handleInc}> + </button>
     <button value={number} onClick={handleDec}> - </button>
 
     <h2>Number is {fizz}</h2>
+    </div>
     </>
   );
 }
